@@ -10,6 +10,62 @@
     background-image: url("../images/vertical-waves.png");
   }
   
+/* Header and nav bar */
+
+.header {
+  /* width: 660; */
+  position: relative;
+  /* border: solid 4px red; */
+  background-color: #ffffff;
+  height: 82px;
+}  
+
+.nav-container {
+  position: absolute;
+  top: 8;
+  left: 472px;
+  width: 150px;
+  height: 81px;
+  background:  #4aaaa5;
+  /* border: solid 4px blue; */
+}
+
+#jen {
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  padding-left: 10px;
+  
+}
+
+.nav {
+  width: 130%;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  float: left;
+  /* bottom: 10px; */
+  /* right: 200px; */
+  left: 782px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /* border: solid 4px blue; */
+}
+
+.clearfix :: after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Old header and horizontal navbar - need to clean up */
+
+
   #about-me {
     color: #4aaaa5;
     align-content: left;
@@ -45,24 +101,26 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
   }
 
-  nav .about {
+   .about {
     /* width: 10%; */
     float: right;
     /* display: inline-block; */
     /*margin: 0 1.50;  */
   }
   
-  nav .portfolio {
+   .portfolio {
     /* width: 10%; */
     float: right;
     /* display: inline-block; */
     /* margin: 0 1.50; */
   }
 
-  nav .contact {
+   .contact {
     /* width: 10%; */
     float: right;
   }
+
+/* Content*/
 
   section {
   margin-bottom: 20px;

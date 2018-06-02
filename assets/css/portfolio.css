@@ -2,7 +2,71 @@
     box-sizing: border-box;
   }
 
-.container {
+/* Header and nav bar */
+
+.header {
+    /* width: 660; */
+    position: relative;
+    /* border: solid 4px red; */
+    background-color: #ffffff;
+    height: 82px;
+  }  
+
+.nav-container {
+    position: absolute;
+    top: 8;
+    left: 472px;
+    width: 150px;
+    height: 81px;
+    background:  #4aaaa5;
+    /* border: solid 4px blue; */
+  }
+
+#jen {
+    position: absolute;
+    top: 22px;
+    left: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 26px;
+    text-align: center;
+    padding-left: 10px;
+    
+  }
+
+.nav {
+    width: 130%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    float: left;
+    /* bottom: 10px; */
+    /* right: 200px; */
+    left: 782px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* border: solid 4px blue; */
+  }
+
+  .clearfix :: after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* Content */
+
+  .wrapper {
+    clear: both;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .container {
+    clear: both;
     position: relative;
     /* border: 5px solid red; */
     height: 680px;
@@ -22,7 +86,6 @@
     top: 95px;
     width: 920px;
     color: #4aaaa5;
-    margin-top: 20px;
     background: #ffffff;
     /* background: yellow; */
     align-content: left;
@@ -32,16 +95,6 @@
     border-bottom: 2px solid #cccccc; 
   }
 
-  .wrapper {
-    clear: left;
-    width: 960px;
-    margin: 0 auto 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    }
-
-  /* Box rules: percentages define anchors (i.e. position of each box relative to enclosing box) */
-  
   .app1 {
     width: 200px;
     height: 200px;
@@ -81,6 +134,7 @@
       background:#4aaaa5;
       width: 200px;
       text-align: center;
+      font-weight: bold;
   }
 
   #app-label2 {
@@ -94,7 +148,8 @@
     background:#4aaaa5;
     width: 200px;
     text-align: center;
-}
+    font-weight: bold;
+  }
 
 #app-label3 {
     position: absolute;
@@ -107,7 +162,8 @@
     background:#4aaaa5;
     width: 200px;
     text-align: center;
-}
+    font-weight: bold;
+  }
 
 #app-label4 {
     position: absolute;
@@ -120,4 +176,5 @@
     background:#4aaaa5;
     width: 200px;
     text-align: center;
-}
+    font-weight: bold;
+  }
