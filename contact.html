@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Jen Fahey</title>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <!--this messed up my page :-(  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 </head>
 
 <body>
-
+    <!--header + horizontal navbar-->
     <div class="clearfix">
         <header id="fixed">
             <h1>Jen Fahey</h1>
@@ -27,11 +28,19 @@
         </div>
     </div>
 
-    <h1>Contact</h1>
-    <h2>Name</h2>
-    <h2>Email</h2>
-    <h2>Message</h2>
-
+    <!--Content-->
+    <section id="full">
+        <h1 id="contact-header">Contact</h1>
+        <p class="contact-field-label">Name</p>
+        <p class="contact-field-text">Jen Fahey</p>
+        <p class="contact-field-label">Email</p>
+        <p class="contact-field-text">jenguin777@gmail.com</p>
+        <p class="contact-field-label">Message</p>
+        <p class="contact-message-box"></p>
+        <br>
+        <button class="submit-button" type="button" onclick="alert('Your message has been sent.')"> Submit </button>
+    </section>
+   
     <footer class="footer">
         <p>Copyright &#169;</p>
     </footer>

@@ -10,45 +10,59 @@
 
 <body>
     <!--header + horizontal navbar-->
-    <div id="fixed">
-        <h2>Jen Fahey</h2>
-    </div>
-
-    <div class="wrapper">
-        <section id="content">
-            <div class="clearfix">
-                <div class="about">
-                    <p> About |</p>
-                </div><!--
-            --><div class="portfolio">
-                <p> Portfolio |</p>
-            </div> <!--
-         --><div class="contact">
-                <p> Contact |</p>
-            </div>
-        </section>
+    <div class="clearfix">
+        <header id="fixed">
+            <h1>Jen Fahey</h1>
+        </header> 
+        <div class="about">
+            <a href="index.html" target="_blank"> About |</a>
+        </div><!--
+        --><div class="portfolio">
+            <a href="portfolio.html" target="_blank"> Portfolio |</a>
+        </div> <!--
+        --><div class="contact">
+            <a href="contact.html" target="_blank"> Contact |</a>
+        </div>
     </div>
 
     <!--Wrapper -->
     <div class="wrapper2"></div>
         <!--Content Section -->
         <section id="content">
-            <!--relatively positioned div-->
+            <!--relatively positioned div, not understanding tag syntax here, -->
+            
+            <!--Error: End tag section seen, but there were open elements.
+
+From line 44, column 9; to line 44, column 18
+
+>↩        </section>↩    <
+
+Error: Unclosed element div.
+
+From line 33, column 13; to line 33, column 31
+
+          <div id="relative">↩     
+
+Error: Stray end tag div.
+
+From line 45, column 5; to line 45, column 10
+
+tion>↩    </div> ↩    -->
+            
             <div id="relative">
                 &lt;div&gt;<br> position: relative
                 <!--absolute positioned div #1-->
                 <div id="absolute">
                 <h2 id="about-me">About Me</h2>
-                </header>
                 &lt;div&gt;<br> position: absolute
                 <!--Profile Pic, absolute positioned div #2 -->
-                <img id="bio-image" src="assets/images/JenProfilePic.jpg">
+                <img id="bio-image" src="assets/images/JenProfilePic.jpg" alt="Jen Fahey">
                 <!--Body copy -->
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-            
         </section>
-    </div>
+    </div> 
+        
 
     <!--footer -->
     <footer class="footer">

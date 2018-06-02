@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Jen Fahey</title>
+    <!--this messed up my page :-(  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 </head>
 
 <body>
-
+    <!--header + horizontal navbar-->
     <div class="clearfix">
         <header id="fixed">
             <h1>Jen Fahey</h1>
@@ -26,10 +28,43 @@
         </div>
     </div>
 
-    <h1>Portfolio</h1>
-    <h2>App1</h2>
-    <h2>App2</h2>
-    <h2>App3</h2>
+
+    <!-- <header class="header">
+            <div class="nav-container">
+              <a href="index.html">Your Name</a>
+              <nav class="nav">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+              </nav>
+            </div>
+          </header> -->
+
+    <section class="wrapper">
+        <div>
+            <h1 id="portfolio-header">Portfolio</h1>
+        </div>
+
+        <div class="container">
+           <figure>
+               <img class="apps app1" src="assets/images/AnimatedComputer.jpg" alt="app1">
+               <figcaption id="app-label1">Application1</figcaption>
+            </figure>
+            <figure>
+                <img class="apps app2" src="assets/images/AntiqueCompass.jpg" alt="app2">
+                <figcaption id="app-label2">Application2</figcaption>
+            </figure>
+            <figure>
+                <img class="apps app3" src="assets/images/BurningCards.jpg" alt="app3">
+                <figcaption id="app-label3">Application3</figcaption>
+            </figure>
+            <figure>
+                <img class="apps app4" src="assets/images/PaintSplat.jpg" alt="app6">
+                <figcaption id="app-label4">Application4</figcaption>
+            </figure>
+        </div>
+
+    </section>
 
     <footer class="footer">
         <p>Copyright &#169;</p>
